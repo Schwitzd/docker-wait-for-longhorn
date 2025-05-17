@@ -29,3 +29,6 @@ while true; do
     sleep 5
   fi
 done
+
+END_TIME=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+echo "[INFO] Script completed at: $END_TIME (UTC)"
