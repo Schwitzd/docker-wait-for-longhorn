@@ -1,7 +1,6 @@
 FROM alpine:latest
 
 LABEL maintainer="Daniel Schwitzgebel <me@schwitzd.me>" \
-      version="1.0.1" \
       description="A minimal image that waits for all Longhorn volumes in the current Kubernetes namespace to be ready before proceeding."
 
 RUN apk add --no-cache curl jq
